@@ -1,0 +1,36 @@
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center; /* Center align the content */
+	margin-bottom: 20px; /* Add some spacing between header and main content */
+}
+
+.main-content {
+	margin: 0 auto; /* Center the main content horizontally */
+	max-width: 800px; /* Optional: Set maximum width for the main content */
+}
+.addEmployeeBtn {
+	background-color: #4caf50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+
+.addEmployeeBtn:hover {
+	background-color: #45a049; /* Darker Green */
+}
+
+.addEmployeeBtn:active {
+	background-color: #3e8e41; /* Active Color */
+}
